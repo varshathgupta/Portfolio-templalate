@@ -1,0 +1,53 @@
+<!DocTYPE html>
+<html lang="en">
+    <head>
+    <meta name ="viewpoint" content = "width=device-width , initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Varshath Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <section>
+
+        <div class="logo">Varshath Gupta S</div>
+        <img src="pics/bg.jpg" class="bg">
+        <div class="content">
+            <h2>Let think<br>and Create</h2>
+            <p> I am an engrossing Electronics engineer, persuing my Bachelour of Engineering in PSNA College of Engineering and Technology.
+            Intrested in the feild of Internet of Things, Web Designing, Circuit Designing</p>
+            <a href="#">Get Started</a>
+        </div>
+       
+    </section>
+    <div class="menuToggle" onclick= "toggleMenu();"></div>
+    <div class="navigator">
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#"> Blog </a></li>
+            <li><a href="#"> Contact</a></li>
+        </ul>
+        <div class="socialBar">
+            <ul>
+                <li><a href="#"><img src="pics/instagram.png"></a></li>
+                <li><a href="#"><img src="pics/twitter.png"></a></li>
+            </ul>
+            <a href="#" class="email"><img src="pics/email.png"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+    function toggleMenu(){
+        var menuToggle = document.querySelector('.menuToggle')
+        var menuToggle = document.querySelector('.navigator')
+        menuToggle.classList.toggle('active')
+        navigatore.classList.toggle('active')
+    }
+
+    </script>
+    
+</body>
+<footer><div ><P class="copyright">@2020 VARSHATH GUPTA S</P></div></footer>
+
+</html>
